@@ -1,0 +1,45 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Oil Change",
+    "description": "Regular oil changes to keep your engine running smoothly.",
+    "price": 49.99,
+    
+    "image": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwc2VydmljZXxlbnwwfHwwfHx8MA==&w=1000&q=80"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Brake Inspection and Repair",
+    "description": "Ensure your brakes are in optimal condition for safe driving.",
+    "price": 89.99,
+    "image": "https://img.freepik.com/premium-photo/auto-mechanic-working-garage-repair-service_146671-9728.jpg?size=626&ext=jpg"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Tire Rotation",
+    "description": "Extend the life of your tires and improve fuel efficiency.",
+    "price": 29.99,
+    "image": "https://plus.unsplash.com/premium_photo-1664298955509-88ea1e6f7bc4?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FyJTIwcmVwYWlyfGVufDB8fDB8fHww"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Engine Diagnostics",
+    "description": "Advanced diagnostics to identify and address engine issues.",
+    "price": 99.99,
+    "image": "https://plus.unsplash.com/premium_photo-1661953077639-5572b0fba7f9?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyJTIwcmVwYWlyfGVufDB8fDB8fHww"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Air Conditioning Service",
+    "description": "Keep your car cool with a comprehensive AC system check.",
+    "price": 69.99,
+    "image": "https://st4.depositphotos.com/13194036/39280/i/600/depositphotos_392803230-stock-photo-auto-mechanics-looking-laptop-screen.jpg"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Transmission Fluid Flush",
+    "description": "Maintain smooth shifting with a thorough transmission fluid flush.",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyJTIwc2VydmljZXxlbnwwfHwwfHx8MA==&w=1000&q=80"
+  }
+]
