@@ -3,10 +3,11 @@ import { AuthContext } from '@/app/provider/AuthProvider'
 import Link from 'next/link'
 import React, { useContext } from 'react'
 
+
 export default function Signup() {
 
   const { createUser } = useContext(AuthContext)
-  
+  const {user} =useContext(AuthContext)
 
   const handleSignup = (event) => {
     event.preventDefault()
@@ -14,7 +15,7 @@ export default function Signup() {
     const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value
-    console.log(event.target )
+    console.log(event.target,name,email,password )
 
     createUser(email, password)
     .then((result) => {
@@ -39,7 +40,7 @@ export default function Signup() {
       <p className="py-6">Your Trusted Car Care Partner. Our expert team delivers precision
           automotive services,</p>
     </div>
-              <form onSubmit={handleSignup}>
+              <div onSubmit={handleSignup}>
                   <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form className="card-body">
         <div className="form-control">
@@ -68,7 +69,7 @@ export default function Signup() {
         </div>
       </form>
     </div>
-    </form>
+    </div>
   </div>
 </div>
   )
